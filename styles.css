@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Centered heading */
+.center {
+    text-align: center;
+}
+
+/* Styling for all tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+/* Border and padding for table cells */
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Specific Classes */
+.middle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center td {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Background Colors */
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+/* Styling for the image */
+img {
+    width: 100px;
+    height: auto;
+}
